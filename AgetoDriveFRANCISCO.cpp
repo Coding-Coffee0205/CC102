@@ -6,7 +6,8 @@ int main ()
 {
 	int age;
 	cout << "What is your age: ";
-	cin >> age; if (age<16)
+	cin >> age; 
+	if (age<16)
 		cout << "You are too young to drive! ";
 	else if (age <=16)
 		cout << "Better clear the road.";
